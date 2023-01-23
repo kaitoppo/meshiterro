@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2023_01_20_090224) do
     t.text "caption"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "use_id"
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
